@@ -1,9 +1,32 @@
 import React, { Component } from "react";
 
 export default class Footer extends Component {
+
+   BackToTop() {
+    const pxShow = 900;
+    const goTopButton = document.querySelector(".ss-go-top");
+
+    if (!goTopButton) return;
+
+    // Show or hide the button
+    if (window.scrollY >= pxShow) goTopButton.classList.add("link-is-visible");
+
+    window.addEventListener("scroll", function () {
+      if (window.scrollY >= pxShow) {
+        if (!goTopButton.classList.contains("link-is-visible"))
+          goTopButton.classList.add("link-is-visible");
+      } else {
+        goTopButton.classList.remove("link-is-visible");
+      }
+    });
+  };
+
+  componentDidMount(){
+    this.BackToTop();
+  }
+
   render() {
     return (
-      <div>
         <footer className="s-footer">
           <div className="row">
             <div className="column large-4 medium-6 w-1000-stack s-footer__social-block">
@@ -48,10 +71,8 @@ export default class Footer extends Component {
                 <path d="M6 4h12v2H6zm5 10v6h2v-6h5l-6-6-6 6z" />
               </svg>
             </a>
-          </div>{" "}
-          {/* end ss-go-top */}
+          </div>
         </footer>
-      </div>
     );
   }
 }
