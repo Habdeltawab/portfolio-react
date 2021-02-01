@@ -5,7 +5,7 @@ export default class Resume extends Component {
     return (
       <div>
         <section id="resume" className="s-resume target-section">
-             {/* s-resume__section */}
+          {/* s-resume__section */}
           <div className="row s-resume__section">
             <div className="column large-3 tab-12">
               <h3 className="section-header-allcaps">Education</h3>
@@ -13,11 +13,11 @@ export default class Resume extends Component {
             <div className="column large-9 tab-12">
               <div className="resume-block">
                 <div className="resume-block__header">
-                  <h4 className="h3">University of Life</h4>
+                  <h4 className="h3">Iowa State University</h4>
                   <p className="resume-block__header-meta">
-                    <span>Master in Graphic Design</span>
+                    <span>Master's in Computer Engineering</span>
                     <span className="resume-block__header-date">
-                      April 2015
+                      November 2021
                     </span>
                   </p>
                 </div>
@@ -32,11 +32,11 @@ export default class Resume extends Component {
               {/* end resume-block */}
               <div className="resume-block">
                 <div className="resume-block__header">
-                  <h4 className="h3">School of Cool Designers</h4>
+                  <h4 className="h3">Iowa State University</h4>
                   <p className="resume-block__header-meta">
-                    <span>B.A. Degree in Graphic Design</span>
+                    <span>B.Sc. Degree in Software Engineering</span>
                     <span className="resume-block__header-date">
-                      August 2012
+                      December 2018
                     </span>
                   </p>
                 </div>
@@ -96,7 +96,6 @@ export default class Resume extends Component {
               {/* end resume-block */}
             </div>
           </div>{" "}
-         
           {/* s-resume__section */}
           <div className="row s-resume__section">
             <div className="column large-3 tab-12">

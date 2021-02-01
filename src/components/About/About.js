@@ -12,32 +12,29 @@ export default class About extends Component {
             <div className="column large-9 tab-12 s-about__content">
               <h3>About Me</h3>
               <p className="about-me-text">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                quae ab illo inventore veritatis et quasi architecto beatae
-                vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia
-                voluptas sit aspernatur aut odit aut fugit, sed quia
-                consequuntur magni dolores eos qui ratione voluptatem sequi
-                nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor
-                sit amet, consectetur, adipisci velit, sed quia non numquam eius
-                modi tempora incidunt ut labore et dolore magnam aliquam quaerat
-                voluptatem. Ut enim ad minima veniam, quis nostrum
-                exercitationem ullam corporis suscipit laboriosam.
+                I came from Cairo, Egypt to the States to get my degree in
+                Software Engineering. After I received my degree, I went to work
+                Full-time for{" "}
+                <a href="https://qci.com/">Quality Consulting Inc. (QCI)</a> as
+                a Software Developer whilst studying to get my Master's Degree.
+                I am a Developer, a gym enthusiast, and Grad Student in the Computer Engineering
+                department at{" "}
+                <a href="https://www.iastate.edu/">Iowa State University</a>.
               </p>
               <hr />
               <div className="row s-about__content-bottom">
                 <div className="column w-1000-stack">
                   <h3>Contact Details</h3>
                   <p>
-                    Jonathan Doe <br />
-                    1600 Amphitheatre Parkway <br />
-                    Mountain View, CA 94043 US <br />
-                    <a href="tel:+1975432345">+197 543 2345</a> <br />
-                    <a href="mailto:#0">sayhello@ceevee.com</a>
+                    Hosam Abdeltawab <br />
+                    4300 Westown Pkwy, Unit 150 <br />
+                    West des Moines, IA 50266, United States <br />
+                    <a href="tel:+15157087127">+1 515-708-7127</a> <br />
+                    <a href="mailto:habdeltawab@qci.com">habdeltawab@qci.com</a>
                   </p>
                 </div>
                 <div className="column w-1000-stack">
-                  <a href="#0" className="btn btn--download">
+                  <a href="resume/Hosam-Resume.pdf" className="btn btn--download">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width={24}
