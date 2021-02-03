@@ -4756,3 +4756,11 @@ button.btn--pill {
     margin-right: 1.4rem;
   }
 }
+
+.tsparticles-canvas-el{
+  position: absolute;
+  left:0;
+  top:0;
+  width:100%;
+  height:100%;
+}

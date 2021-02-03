@@ -7,6 +7,7 @@ import Portfolio from "./components/Portfolio/Portfolio";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import Preloader from "./components/Preloader/Preloader";
+import Particles from './components/Particles/particles'
 
 import React, { Component } from "react";
 
@@ -19,6 +20,7 @@ export default class App extends Component {
           <Preloader />
           <Header />
           <Hero />
+          <Particles/>
           <About />
           <Resume />
           <Portfolio />
