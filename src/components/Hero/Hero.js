@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import Particles from "react-particles-js";
 export default class Hero extends Component {
   render() {
     return (
