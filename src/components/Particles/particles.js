@@ -4,12 +4,12 @@ import Particles from "react-particles-js";
 export default class particles extends Component {
   render() {
     return (
-      <div>
+      <div className="h-particles">
         <Particles
           params={{
             particles: {
               number: {
-                value: 100,
+                value: 60,
               },
               size: {
                 value: 3,

@@ -19,8 +19,8 @@ export default class App extends Component {
         <div className="App">
           <Preloader />
           <Header />
-          <Hero />
           <Particles/>
+          <Hero />
           <About />
           <Resume />
           <Portfolio />
