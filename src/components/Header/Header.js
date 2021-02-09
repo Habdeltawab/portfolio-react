@@ -117,6 +117,11 @@ export default class Header extends Component {
         <div className="row s-header__nav-wrap">
           <nav className="s-header__nav">
             <ul>
+              {/* <li className="my-logo">
+                <a>
+                  <img className="logo-pic" src="logo/t-logo.png" alt="my logo" />
+                </a>
+              </li> */}
               <li className="current">
                 <a className="smoothscroll" href="#hero">
                   Home
