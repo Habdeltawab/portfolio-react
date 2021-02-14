@@ -7,23 +7,24 @@ import Portfolio from "./components/Portfolio/Portfolio";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import Preloader from "./components/Preloader/Preloader";
-import Particles from './components/Particles/particles'
+import Particles from "./components/Particles/particles";
+import Testimonials from "./components/Testimonials/Testimonials";
 
 import React, { Component } from "react";
 
 export default class App extends Component {
-
   render() {
     return (
       <div>
         <div className="App">
           <Preloader />
           <Header />
-          <Particles/>
+          <Particles />
           <Hero />
           <About />
           <Resume />
           <Portfolio />
+          <Testimonials />
           <Contact />
           <Footer />
         </div>
