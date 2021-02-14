@@ -570,7 +570,8 @@ body {
  * ## media
  * ------------------------------------------------------------------- */
 svg,
-img,
+.hosam-image,
+.folio-item__thumb > img,
 video embed,
 iframe,
 object {
@@ -2036,7 +2037,8 @@ ul,
 ol,
 dl,
 form,
-img,
+.hosam-image,
+.folio-item__thumb > img,
 .video-container,
 .ss-custom-select {
   margin-bottom: var(--vspace-1);
@@ -3192,7 +3194,7 @@ button.btn--pill {
  *
  * ------------------------------------------------------------------- */
 .s-header {
-  --header-height: 6.8rem;
+  --header-height: 5.8rem;
   z-index: 100;
   width: 100%;
   background-color: transparent;
@@ -3290,10 +3292,10 @@ button.btn--pill {
   letter-spacing: 0.4rem;
   background-color: var(--color-2);
   color: white;
-  width: var(--header-height);
+  width: 100%;
   height: var(--header-height);
   line-height: var(--header-height);
-  position: absolute;
+  position: fixed;
   right: 0;
   top: 0;
 }
@@ -3416,7 +3418,7 @@ button.btn--pill {
     content: counter(ctr, decimal-leading-zero);
     counter-increment: ctr;
     font-size: var(--text-xs);
-    color: rgba(255, 255, 255, 0.18);
+    color: var(--color-2);
     position: absolute;
     top: var(--vspace-0_5);
     left: 0;
@@ -3876,7 +3878,7 @@ button.btn--pill {
   fill: white;
 }
 
-.hosam-image{
+.hosam-image {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -4759,11 +4761,11 @@ button.btn--pill {
   }
 }
 
-.tsparticles-canvas-el{
+.tsparticles-canvas-el {
   position: absolute;
-  left:0;
-  top:0;
-  width:100%;
-  height:100%;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
   z-index: 1;
 }

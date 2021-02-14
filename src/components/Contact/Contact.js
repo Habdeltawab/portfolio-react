@@ -24,8 +24,8 @@ export default class Contact extends Component {
                   <div className="contact-block">
                     <h5 className="contact-block__header">Email</h5>
                     <p className="contact-block__content">
-                      <a className="mailtoui" href="mailto:sayhello@ceevee.com">
-                        sayhello@ceevee.com
+                      <a className="mailtoui" href="mailto:hosama@iastate.edu">
+                        hosama@iastate.edu
                       </a>
                     </p>
                   </div>{" "}
@@ -35,14 +35,14 @@ export default class Contact extends Component {
                   <div className="contact-block">
                     <h5 className="contact-block__header">Phone</h5>
                     <p className="contact-block__content">
-                      <a href="tel:+1975432345">+197 543 2345</a>
+                      <a href="tel:+15157087127">+1 515-708-7127</a>
                     </p>
                   </div>{" "}
                   {/* end contact-block */}
                 </div>
                 <div className="column large-12">
                   <a
-                    href="mailto:sayhello@ceevee.com"
+                    href="mailto:hosama@iastate.edu"
                     className="mailtoui btn btn--primary h-full-width"
                   >
                     Let's Talk

@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Particles from "react-particles-js";
 export default class Hero extends Component {
   render() {
     return (
@@ -22,10 +21,16 @@ export default class Hero extends Component {
                 .
               </h3>
               <div className="s-hero__content-social">
-                <a href="#0">
+                <a href="https://wa.link/tqouja">
+                  <i className="fab fa-whatsapp" aria-hidden="true" />
+                </a>
+                <a href="https://www.facebook.com/7OSS.2EL.BOSS">
+                  <i className="fab fa-facebook" aria-hidden="true" />
+                </a>
+                <a href="https://www.linkedin.com/in/hosam96/">
                   <i className="fab fa-linkedin" aria-hidden="true" />
                 </a>
-                <a href="#0">
+                <a href="https://github.com/Habdeltawab">
                   <i className="fab fa-github" aria-hidden="true" />
                 </a>
               </div>

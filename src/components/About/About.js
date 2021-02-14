@@ -17,7 +17,7 @@ export default class About extends Component {
                 Full-time for{" "}
                 <a href="https://qci.com/">Quality Consulting Inc. (QCI)</a> as
                 a Software Developer whilst studying to get my Master's Degree.
-                I am a Developer, a gym enthusiast, and Grad Student in the Computer Engineering
+                I am a Developer, a gym enthusiast, and a Grad Student in the Computer Engineering
                 department at{" "}
                 <a href="https://www.iastate.edu/">Iowa State University</a>.
               </p>
@@ -28,9 +28,9 @@ export default class About extends Component {
                   <p>
                     Hosam Abdeltawab <br />
                     4300 Westown Pkwy, Unit 150 <br />
-                    West des Moines, IA 50266, United States <br />
+                    West Des Moines, IA 50266, United States <br />
                     <a href="tel:+15157087127">+1 515-708-7127</a> <br />
-                    <a href="mailto:habdeltawab@qci.com">habdeltawab@qci.com</a>
+                    <a href="mailto:hosama@iastate.edu">hosama@iastate.edu</a>
                   </p>
                 </div>
                 <div className="column w-1000-stack">
