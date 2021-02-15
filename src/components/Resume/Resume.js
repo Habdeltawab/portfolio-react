@@ -87,11 +87,12 @@ export default class Resume extends Component {
                   </p>
                 </div>
                 <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Inventore vero quidem nobis maxime dolorem aliquam quisquam
-                  eum ipsum amet. Vitae aut atque fuga dolorem. Vel voluptatibus
-                  fugiat nam. Impedit aperiam nesciunt facilis! Porro architecto
-                  dicta inventore tempora ratione quia odio.
+                  At QCI, we work with multiple high-end clients to provide
+                  software solutions for their infrastructure. We work as
+                  dedicated developers to develop complete software systems that
+                  allow our clients to manage and grow their organizations. We
+                  learn to see technology as a means to an objective that will
+                  benefit our clients best
                 </p>
               </div>{" "}
               <div className="resume-block">
@@ -105,11 +106,16 @@ export default class Resume extends Component {
                   </p>
                 </div>
                 <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Inventore vero quidem nobis maxime dolorem aliquam quisquam
-                  eum ipsum amet. Vitae aut atque fuga dolorem. Vel voluptatibus
-                  fugiat nam. Impedit aperiam nesciunt facilis! Porro architecto
-                  dicta inventore tempora ratione quia odio.
+                  Genova is a true software engineering company and brings
+                  expertise in application design and development using
+                  programming languages such as Java/J2EE, ASP.NET, C/C++, Ada,
+                  Visual Basic, HTML and XML, and proficiency with Windows,
+                  UNIX, and Linux servers, and embedded systems. At Genova, I
+                  have interacted with many brilliant developers while working
+                  together on the automation of tractors for one of the largest
+                  agriculture companies in the States. Moreover, I learned a
+                  great deal about embedded systems, C/C++ languages, and Web
+                  Developing languages.
                 </p>
               </div>{" "}
               {/* end resume-block */}
@@ -124,11 +130,14 @@ export default class Resume extends Component {
                   </p>
                 </div>
                 <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Inventore vero quidem nobis maxime dolorem aliquam quisquam
-                  eum ipsum amet. Vitae aut atque fuga dolorem. Vel voluptatibus
-                  fugiat nam. Impedit aperiam nesciunt facilis! Porro architecto
-                  dicta inventore tempora ratione quia odio.
+                  As a Teaching Assistant, I have learned and gained experience
+                  in the Java development field. I constantly worked with
+                  students on their projects on assignments mentoring them in
+                  the field and making sure the information is well perceived
+                  and understood. Moreover, I worked closely with department
+                  professors on projects and assignment preparations and gained
+                  the skills needed to hone my abilities that will aid me in my
+                  future endeavors
                 </p>
               </div>{" "}
               {/* end resume-block */}
@@ -142,20 +151,23 @@ export default class Resume extends Component {
             <div className="column large-9 tab-12">
               <div className="resume-block">
                 <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Inventore vero quidem nobis maxime dolorem aliquam quisquam
-                  eum ipsum amet. Vitae aut atque fuga dolorem. Vel voluptatibus
-                  fugiat nam. Impedit aperiam nesciunt facilis! Porro architecto
-                  dicta inventore tempora ratione quia odio.
+                  Below is a list of some of my most used skills in my current position.
+                  The complete list of my skills can be found in my{" "}
+                  <a href="resume/Hosam-Resume.pdf">resume.</a> Please feel free
+                  to download it.
                 </p>
                 <ul className="skill-bars-fat">
                   <li>
-                    <div className="progress percent90" />
-                    <strong>MVC</strong>
+                    <div className="progress percent100" />
+                    <strong>C#</strong>
+                  </li>
+                  <li>
+                    <div className="progress percent100" />
+                    <strong>Java</strong>
                   </li>
                   <li>
                     <div className="progress percent90" />
-                    <strong>Java</strong>
+                    <strong>MVC</strong>
                   </li>
                   <li>
                     <div className="progress percent90" />
