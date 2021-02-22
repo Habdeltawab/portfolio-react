@@ -146,7 +146,7 @@ export default class Header extends Component {
                 <a class="smoothscroll" href="#testimonials">
                   Testimonials
                 </a>
-              </li> */}
+              </li>*/} 
               <li>
                 <a className="smoothscroll" href="#contact">
                   Say Hello
