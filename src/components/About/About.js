@@ -34,7 +34,7 @@ export default class About extends Component {
                   </p>
                 </div>
                 <div className="column w-1000-stack">
-                  <a href="resume/Hosam-Resume.pdf" className="btn btn--download">
+                  <a href="resume/Hosam-resume-2.pdf" className="btn btn--download">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width={24}
