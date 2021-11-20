@@ -33,7 +33,7 @@ export default class Testimonials extends Component {
                     fuga rem nihil nostrum. Laudantium quia consequatur
                     molestias delectus culpa.
                   </p>
-                </div>{" "}
+                </div>
                 {/* end testimonial-slider__slide */}
                 <div className="testimonial-slider__slide swiper-slide">
                   <div className="testimonial-slider__author">
@@ -54,7 +54,7 @@ export default class Testimonials extends Component {
                     perspiciatis. Quasi voluptas eius distinctio. Atque eos
                     maxime.
                   </p>
-                </div>{" "}
+                </div>
                 {/* end testimonial-slider__slide */}
                 <div className="testimonial-slider__slide swiper-slide">
                   <div className="testimonial-slider__author">
@@ -75,7 +75,7 @@ export default class Testimonials extends Component {
                     voluptatum accusamus. Quasi voluptas eius distinctio.
                     Voluptatem dignissimos ut.
                   </p>
-                </div>{" "}
+                </div>
                 {/* end testimonial-slider__slide */}
                 <div className="testimonial-slider__slide swiper-slide">
                   <div className="testimonial-slider__author">
@@ -96,16 +96,16 @@ export default class Testimonials extends Component {
                     corrupti expedita voluptas odit. Nihil ea quia nesciunt.
                     Ducimus aut sed ipsam.
                   </p>
-                </div>{" "}
+                </div>
                 {/* end testimonial-slider__slide */}
-              </div>{" "}
+              </div>
               {/* end testimonial slider swiper-wrapper */}
               <div className="swiper-pagination" />
-            </div>{" "}
+            </div>
             {/* end swiper-container */}
-          </div>{" "}
+          </div>
           {/* end column */}
-        </div>{" "}
+        </div>
         {/* end row */}
       </section>
     );

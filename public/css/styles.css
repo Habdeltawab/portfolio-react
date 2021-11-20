@@ -3947,6 +3947,11 @@ button.btn--pill {
   margin-bottom: 0;
 }
 
+.resume-download-button .column{
+  display: flex;
+  justify-content: center;
+}
+
 /* ------------------------------------------------------------------- 
  * ## resume block
  * ------------------------------------------------------------------- */

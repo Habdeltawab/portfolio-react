@@ -24,11 +24,11 @@ export default class Contact extends Component {
                   <div className="contact-block">
                     <h5 className="contact-block__header">Email</h5>
                     <p className="contact-block__content">
-                      <a className="mailtoui" href="mailto:hosama@iastate.edu">
-                        hosama@iastate.edu
+                      <a className="mailtoui" href="mailto:hussamahmed87@gmail.com">
+                      hussamahmed87@gmail.com
                       </a>
                     </p>
-                  </div>{" "}
+                  </div>
                   {/* end contact-block */}
                 </div>
                 <div className="column large-12 medium-6 tab-12">
@@ -37,23 +37,23 @@ export default class Contact extends Component {
                     <p className="contact-block__content">
                       <a href="tel:+15157087127">+1 515-708-7127</a>
                     </p>
-                  </div>{" "}
+                  </div>
                   {/* end contact-block */}
                 </div>
                 <div className="column large-12">
                   <a
-                    href="mailto:hosama@iastate.edu"
+                    href="mailto:hussamahmed87@gmail.com"
                     className="mailtoui btn btn--primary h-full-width"
                   >
                     Let's Talk
                   </a>
                 </div>
-              </div>{" "}
+              </div>
               {/* end contact-infos */}
             </div>
-          </div>{" "}
+          </div>
           {/* s-contact__content */}
-        </section>{" "}
+        </section>
         {/* end s-contact */}
       </div>
     );
