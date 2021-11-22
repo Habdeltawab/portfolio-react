@@ -25,6 +25,7 @@ export default class App extends Component {
           <Resume />
           {/* <Portfolio />
           <Testimonials /> */}
+          <Testimonials />
           <Contact />
           <Footer />
         </div>

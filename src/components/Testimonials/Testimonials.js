@@ -1,113 +1,54 @@
 import React, { Component } from "react";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from "react-responsive-carousel";
 
 export default class Testimonials extends Component {
   render() {
     return (
-      <section id="testimonials" className="s-testimonials target-section">
-        <div className="s-testimonials__bg" />
-        <div className="row s-testimonials__header">
-          <div className="column large-12">
-            <h3>Hear What My Clients Says</h3>
+      <Carousel
+        showArrows={true}
+        infiniteLoop={true}
+        showThumbs={false}
+        showStatus={false}
+        autoPlay={true}
+        interval={6100}
+      >
+        <div>
+          <img src="/images/shirley.png" />
+          <div className="myCarousel">
+            <h3>Shirley Fultz</h3>
+            <h4>Designer</h4>
+            <p>
+              It's freeing to be able to catch up on customized news and not be
+              distracted by a social media element on the same site
+            </p>
           </div>
         </div>
-        <div className="row s-testimonials__content">
-          <div className="column">
-            <div className="swiper-container testimonial-slider">
-              <div className="swiper-wrapper">
-                <div className="testimonial-slider__slide swiper-slide">
-                  <div className="testimonial-slider__author">
-                    <img
-                      src="images/avatars/user-02.jpg"
-                      alt="Author image"
-                      className="testimonial-slider__avatar"
-                    />
-                    <cite className="testimonial-slider__cite">
-                      <strong>Tim Cook</strong>
-                      <span>CEO, Apple</span>
-                    </cite>
-                  </div>
-                  <p>
-                    Molestiae incidunt consequatur quis ipsa autem nam sit enim
-                    magni. Voluptas tempore rem. Explicabo a quaerat sint autem
-                    dolore ducimus ut consequatur neque. Nisi dolores quaerat
-                    fuga rem nihil nostrum. Laudantium quia consequatur
-                    molestias delectus culpa.
-                  </p>
-                </div>
-                {/* end testimonial-slider__slide */}
-                <div className="testimonial-slider__slide swiper-slide">
-                  <div className="testimonial-slider__author">
-                    <img
-                      src="images/avatars/user-03.jpg"
-                      alt="Author image"
-                      className="testimonial-slider__avatar"
-                    />
-                    <cite className="testimonial-slider__cite">
-                      <strong>Sundar Pichai</strong>
-                      <span>CEO, Google</span>
-                    </cite>
-                  </div>
-                  <p>
-                    Excepturi nam cupiditate culpa doloremque deleniti repellat.
-                    Veniam quos repellat voluptas animi adipisci. Nisi eaque
-                    consequatur. Voluptatem dignissimos ut ducimus accusantium
-                    perspiciatis. Quasi voluptas eius distinctio. Atque eos
-                    maxime.
-                  </p>
-                </div>
-                {/* end testimonial-slider__slide */}
-                <div className="testimonial-slider__slide swiper-slide">
-                  <div className="testimonial-slider__author">
-                    <img
-                      src="images/avatars/user-04.jpg"
-                      alt="Author image"
-                      className="testimonial-slider__avatar"
-                    />
-                    <cite className="testimonial-slider__cite">
-                      <strong>Satya Nadella</strong>
-                      <span>CEO, Microsoft</span>
-                    </cite>
-                  </div>
-                  <p>
-                    Repellat dignissimos libero. Qui sed at corrupti expedita
-                    voluptas odit. Nihil ea quia nesciunt. Ducimus aut sed
-                    ipsam. Autem eaque officia cum exercitationem sunt
-                    voluptatum accusamus. Quasi voluptas eius distinctio.
-                    Voluptatem dignissimos ut.
-                  </p>
-                </div>
-                {/* end testimonial-slider__slide */}
-                <div className="testimonial-slider__slide swiper-slide">
-                  <div className="testimonial-slider__author">
-                    <img
-                      src="images/avatars/user-05.jpg"
-                      alt="Author image"
-                      className="testimonial-slider__avatar"
-                    />
-                    <cite className="testimonial-slider__cite">
-                      <strong>Jeff Bezos</strong>
-                      <span>CEO, Amazon</span>
-                    </cite>
-                  </div>
-                  <p>
-                    Nunc interdum lacus sit amet orci. Vestibulum dapibus nunc
-                    ac augue. Fusce vel dui. In ac felis quis tortor malesuada
-                    pretium. Curabitur vestibulum aliquam leo. Qui sed at
-                    corrupti expedita voluptas odit. Nihil ea quia nesciunt.
-                    Ducimus aut sed ipsam.
-                  </p>
-                </div>
-                {/* end testimonial-slider__slide */}
-              </div>
-              {/* end testimonial slider swiper-wrapper */}
-              <div className="swiper-pagination" />
-            </div>
-            {/* end swiper-container */}
+
+        <div>
+          <img src="/images/daniel.png" />
+          <div className="myCarousel">
+            <h3>Daniel Keystone</h3>
+            <h4>Designer</h4>
+            <p>
+              The simple and intuitive design makes it easy for me use. I highly
+              recommend Fetch to my peers.
+            </p>
           </div>
-          {/* end column */}
         </div>
-        {/* end row */}
-      </section>
+
+        <div>
+          <img src="/images/theo.png" />
+          <div className="myCarousel">
+            <h3>Theo Sorel</h3>
+            <h4>Designer</h4>
+            <p>
+              I enjoy catching up with Fetch on my laptop, or on my phone when
+              I'm on the go!
+            </p>
+          </div>
+        </div>
+      </Carousel>
     );
   }
 }
