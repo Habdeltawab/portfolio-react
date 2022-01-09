@@ -1,54 +1,50 @@
 import React, { Component } from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { Carousel } from "react-responsive-carousel";
+import { Carousel } from "antd";
+import Slider from "react-slick";
+
+const contentStyle = {
+  height: "160px",
+  color: "#fff",
+  lineHeight: "160px",
+  textAlign: "center",
+  background: "#364d79",
+};
+
+const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1
+  };
 
 export default class Testimonials extends Component {
   render() {
     return (
-      <Carousel
-        showArrows={true}
-        infiniteLoop={true}
-        showThumbs={false}
-        showStatus={false}
-        autoPlay={true}
-        interval={6100}
-      >
         <div>
-          <img src="/images/shirley.png" />
-          <div className="myCarousel">
-            <h3>Shirley Fultz</h3>
-            <h4>Designer</h4>
-            <p>
-              It's freeing to be able to catch up on customized news and not be
-              distracted by a social media element on the same site
-            </p>
+        <h2> Single Item</h2>
+        <Slider {...settings}>
+          <div>
+            <h3>1</h3>
           </div>
-        </div>
-
-        <div>
-          <img src="/images/daniel.png" />
-          <div className="myCarousel">
-            <h3>Daniel Keystone</h3>
-            <h4>Designer</h4>
-            <p>
-              The simple and intuitive design makes it easy for me use. I highly
-              recommend Fetch to my peers.
-            </p>
+          <div>
+            <h3>2</h3>
           </div>
-        </div>
-
-        <div>
-          <img src="/images/theo.png" />
-          <div className="myCarousel">
-            <h3>Theo Sorel</h3>
-            <h4>Designer</h4>
-            <p>
-              I enjoy catching up with Fetch on my laptop, or on my phone when
-              I'm on the go!
-            </p>
+          <div>
+            <h3>3</h3>
           </div>
-        </div>
-      </Carousel>
+          <div>
+            <h3>4</h3>
+          </div>
+          <div>
+            <h3>5</h3>
+          </div>
+          <div>
+            <h3>6</h3>
+          </div>
+        </Slider>
+      </div>
     );
   }
 }
