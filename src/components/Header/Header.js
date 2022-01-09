@@ -128,13 +128,13 @@ export default class Header extends Component {
                 </a>
               </li>
               <li>
-                <a className="smoothscroll" href="#resume">
+                <a className="smoothscroll" href="resume/hosam_resume_2022.pdf" target="_blank">
                   Resume
                 </a>
               </li>
               <li>
-                <a className="smoothscroll" href="#portfolio">
-                  Works
+                <a className="smoothscroll" href="#cv">
+                  CV
                 </a>
               </li>
               <li>

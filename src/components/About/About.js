@@ -14,11 +14,11 @@ export default class About extends Component {
               <p className="about-me-text">
                 I came from Cairo, Egypt to the States to get my degree in
                 Software Engineering. After I received my degree, I went to work
-                Full-time for{" "}
+                Full-time for
                 <a href="https://qci.com/">Quality Consulting Inc. (QCI)</a> as
                 a Software Developer whilst studying to get my Master's Degree.
-                I am a Developer, a gym enthusiast, and Grad Student in the Computer Engineering
-                department at{" "}
+                I am a Developer, a gym enthusiast, and a Grad Student in the Computer Engineering
+                department at
                 <a href="https://www.iastate.edu/">Iowa State University</a>.
               </p>
               <hr />
@@ -28,13 +28,13 @@ export default class About extends Component {
                   <p>
                     Hosam Abdeltawab <br />
                     4300 Westown Pkwy, Unit 150 <br />
-                    West des Moines, IA 50266, United States <br />
+                    West Des Moines, IA 50266, United States <br />
                     <a href="tel:+15157087127">+1 515-708-7127</a> <br />
-                    <a href="mailto:habdeltawab@qci.com">habdeltawab@qci.com</a>
+                    <a href="mailto:hussamahmed87@gmail.com">hussamahmed87@gmail.com</a>
                   </p>
                 </div>
                 <div className="column w-1000-stack">
-                  <a href="resume/Hosam-Resume.pdf" className="btn btn--download">
+                  <a href="resume/hosam_resume_2022.pdf" target="_blank" className="btn btn--download">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width={24}
@@ -49,15 +49,13 @@ export default class About extends Component {
                       <path d="M12 16L16 11 13 11 13 4 11 4 11 11 8 11z" />
                       <path d="M20,18H4v-7H2v7c0,1.103,0.897,2,2,2h16c1.103,0,2-0.897,2-2v-7h-2V18z" />
                     </svg>
-                    Download CV
+                    Download Resume
                   </a>
                 </div>
               </div>
             </div>
-          </div>{" "}
-          {/* end row */}
-        </section>{" "}
-        {/* end s-about */}
+          </div>
+        </section>
       </div>
     );
   }

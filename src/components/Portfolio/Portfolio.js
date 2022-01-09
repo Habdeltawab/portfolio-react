@@ -1,6 +1,38 @@
 import React, { Component } from "react";
-
+const basicLightbox = require("basiclightbox");
 export default class Portfolio extends Component {
+  ssLightbox() {
+    const folioLinks = document.querySelectorAll(".folio-item a");
+    const modals = [];
+
+    folioLinks.forEach(function (link) {
+      let modalbox = link.getAttribute("href");
+      let instance = basicLightbox.create(document.querySelector(modalbox), {
+        onShow: function (instance) {
+          //detect Escape key press
+          document.addEventListener("keydown", function (evt) {
+            evt = evt || window.event;
+            if (evt.keyCode === 27) {
+              instance.close();
+            }
+          });
+        },
+      });
+      modals.push(instance);
+    });
+
+    folioLinks.forEach(function (link, index) {
+      link.addEventListener("click", function (e) {
+        e.preventDefault();
+        modals[index].show();
+      });
+    });
+  }
+
+  componentDidMount() {
+    this.ssLightbox();
+  }
+
   render() {
     return (
       <div>
@@ -20,7 +52,7 @@ export default class Portfolio extends Component {
                   alt=""
                 />
               </a>
-            </div>{" "}
+            </div>
             {/* end folio-item */}
             <div className="column folio-item">
               <a href="#modal-02" className="folio-item__thumb">
@@ -31,7 +63,7 @@ export default class Portfolio extends Component {
                   alt=""
                 />
               </a>
-            </div>{" "}
+            </div>
             {/* end folio-item */}
             <div className="column folio-item">
               <a href="#modal-03" className="folio-item__thumb">
@@ -42,7 +74,7 @@ export default class Portfolio extends Component {
                   alt=""
                 />
               </a>
-            </div>{" "}
+            </div>
             {/* end folio-item */}
             <div className="column folio-item">
               <a href="#modal-04" className="folio-item__thumb">
@@ -53,7 +85,7 @@ export default class Portfolio extends Component {
                   alt=""
                 />
               </a>
-            </div>{" "}
+            </div>
             {/* end folio-item */}
             <div className="column folio-item">
               <a href="#modal-05" className="folio-item__thumb">
@@ -64,7 +96,7 @@ export default class Portfolio extends Component {
                   alt=""
                 />
               </a>
-            </div>{" "}
+            </div>
             {/* end folio-item */}
             <div className="column folio-item">
               <a href="#modal-06" className="folio-item__thumb">
@@ -75,7 +107,7 @@ export default class Portfolio extends Component {
                   alt=""
                 />
               </a>
-            </div>{" "}
+            </div>
             {/* end folio-item */}
             <div className="column folio-item">
               <a href="#modal-07" className="folio-item__thumb">
@@ -86,7 +118,7 @@ export default class Portfolio extends Component {
                   alt=""
                 />
               </a>
-            </div>{" "}
+            </div>
             {/* end folio-item */}
             <div className="column folio-item">
               <a href="#modal-08" className="folio-item__thumb">
@@ -97,9 +129,9 @@ export default class Portfolio extends Component {
                   alt=""
                 />
               </a>
-            </div>{" "}
+            </div>
             {/* end folio-item */}
-          </div>{" "}
+          </div>
           {/* end folio-list */}
           {/* Modal Templates Popup
         =========================================================== */}
@@ -125,7 +157,7 @@ export default class Portfolio extends Component {
                 Project link
               </a>
             </div>
-          </div>{" "}
+          </div>
           {/* end modal */}
           <div id="modal-02" hidden>
             <div className="modal-popup">
@@ -148,7 +180,7 @@ export default class Portfolio extends Component {
                 Project link
               </a>
             </div>
-          </div>{" "}
+          </div>
           {/* end modal */}
           <div id="modal-03" hidden>
             <div className="modal-popup">
@@ -171,7 +203,7 @@ export default class Portfolio extends Component {
                 Project link
               </a>
             </div>
-          </div>{" "}
+          </div>
           {/* end modal */}
           <div id="modal-04" hidden>
             <div className="modal-popup">
@@ -194,7 +226,7 @@ export default class Portfolio extends Component {
                 Project link
               </a>
             </div>
-          </div>{" "}
+          </div>
           {/* end modal */}
           <div id="modal-05" hidden>
             <div className="modal-popup">
@@ -217,7 +249,7 @@ export default class Portfolio extends Component {
                 Project link
               </a>
             </div>
-          </div>{" "}
+          </div>
           {/* end modal */}
           <div id="modal-06" hidden>
             <div className="modal-popup">
@@ -241,7 +273,7 @@ export default class Portfolio extends Component {
                 Project link
               </a>
             </div>
-          </div>{" "}
+          </div>
           {/* end modal */}
           <div id="modal-07" hidden>
             <div className="modal-popup">
@@ -265,7 +297,7 @@ export default class Portfolio extends Component {
                 Project link
               </a>
             </div>
-          </div>{" "}
+          </div>
           {/* end modal */}
           <div id="modal-08" hidden>
             <div className="modal-popup">
@@ -288,9 +320,9 @@ export default class Portfolio extends Component {
                 Project link
               </a>
             </div>
-          </div>{" "}
+          </div>
           {/* end modal */}
-        </section>{" "}
+        </section>
         {/* end s-portfolio */}
       </div>
     );
