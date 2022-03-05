@@ -52,7 +52,7 @@ export default class Portfolio extends Component {
                   alt=""
                 />
               </a>
-            </div>{" "}
+            </div>
             {/* end folio-item */}
             <div className="column folio-item">
               <a href="#modal-02" className="folio-item__thumb">
@@ -63,7 +63,7 @@ export default class Portfolio extends Component {
                   alt=""
                 />
               </a>
-            </div>{" "}
+            </div>
             {/* end folio-item */}
             <div className="column folio-item">
               <a href="#modal-03" className="folio-item__thumb">
@@ -74,7 +74,7 @@ export default class Portfolio extends Component {
                   alt=""
                 />
               </a>
-            </div>{" "}
+            </div>
             {/* end folio-item */}
             <div className="column folio-item">
               <a href="#modal-04" className="folio-item__thumb">
@@ -85,7 +85,7 @@ export default class Portfolio extends Component {
                   alt=""
                 />
               </a>
-            </div>{" "}
+            </div>
             {/* end folio-item */}
             <div className="column folio-item">
               <a href="#modal-05" className="folio-item__thumb">
@@ -96,7 +96,7 @@ export default class Portfolio extends Component {
                   alt=""
                 />
               </a>
-            </div>{" "}
+            </div>
             {/* end folio-item */}
             <div className="column folio-item">
               <a href="#modal-06" className="folio-item__thumb">
@@ -107,7 +107,7 @@ export default class Portfolio extends Component {
                   alt=""
                 />
               </a>
-            </div>{" "}
+            </div>
             {/* end folio-item */}
             <div className="column folio-item">
               <a href="#modal-07" className="folio-item__thumb">
@@ -118,7 +118,7 @@ export default class Portfolio extends Component {
                   alt=""
                 />
               </a>
-            </div>{" "}
+            </div>
             {/* end folio-item */}
             <div className="column folio-item">
               <a href="#modal-08" className="folio-item__thumb">
@@ -129,9 +129,9 @@ export default class Portfolio extends Component {
                   alt=""
                 />
               </a>
-            </div>{" "}
+            </div>
             {/* end folio-item */}
-          </div>{" "}
+          </div>
           {/* end folio-list */}
           {/* Modal Templates Popup
         =========================================================== */}
@@ -157,7 +157,7 @@ export default class Portfolio extends Component {
                 Project link
               </a>
             </div>
-          </div>{" "}
+          </div>
           {/* end modal */}
           <div id="modal-02" hidden>
             <div className="modal-popup">
@@ -180,7 +180,7 @@ export default class Portfolio extends Component {
                 Project link
               </a>
             </div>
-          </div>{" "}
+          </div>
           {/* end modal */}
           <div id="modal-03" hidden>
             <div className="modal-popup">
@@ -203,7 +203,7 @@ export default class Portfolio extends Component {
                 Project link
               </a>
             </div>
-          </div>{" "}
+          </div>
           {/* end modal */}
           <div id="modal-04" hidden>
             <div className="modal-popup">
@@ -226,7 +226,7 @@ export default class Portfolio extends Component {
                 Project link
               </a>
             </div>
-          </div>{" "}
+          </div>
           {/* end modal */}
           <div id="modal-05" hidden>
             <div className="modal-popup">
@@ -249,7 +249,7 @@ export default class Portfolio extends Component {
                 Project link
               </a>
             </div>
-          </div>{" "}
+          </div>
           {/* end modal */}
           <div id="modal-06" hidden>
             <div className="modal-popup">
@@ -273,7 +273,7 @@ export default class Portfolio extends Component {
                 Project link
               </a>
             </div>
-          </div>{" "}
+          </div>
           {/* end modal */}
           <div id="modal-07" hidden>
             <div className="modal-popup">
@@ -297,7 +297,7 @@ export default class Portfolio extends Component {
                 Project link
               </a>
             </div>
-          </div>{" "}
+          </div>
           {/* end modal */}
           <div id="modal-08" hidden>
             <div className="modal-popup">
@@ -320,9 +320,9 @@ export default class Portfolio extends Component {
                 Project link
               </a>
             </div>
-          </div>{" "}
+          </div>
           {/* end modal */}
-        </section>{" "}
+        </section>
         {/* end s-portfolio */}
       </div>
     );

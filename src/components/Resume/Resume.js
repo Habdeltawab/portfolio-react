@@ -4,7 +4,7 @@ export default class Resume extends Component {
   render() {
     return (
       <div>
-        <section id="resume" className="s-resume target-section">
+        <section id="cv" className="s-resume target-section">
           {/* s-resume__section */}
           <div className="row s-resume__section">
             <div className="column large-3 tab-12">
@@ -15,9 +15,9 @@ export default class Resume extends Component {
                 <div className="resume-block__header">
                   <h4 className="h3">Iowa State University</h4>
                   <p className="resume-block__header-meta">
-                    <span>Master's in Computer Engineering</span>
+                    <span>M.Eng. Degree Computer Engineering</span>
                     <span className="resume-block__header-date">
-                      November 2021
+                      December 2021
                     </span>
                   </p>
                 </div>
@@ -61,7 +61,7 @@ export default class Resume extends Component {
                   program was ranked sixth in the nation in 2018 by College
                   Choice, and In the summer of 2018 Iowa State University’s
                   Software Engineering Program was ranked second from
-                  schools.com on the top{" "}
+                  schools.com on the top
                   <a href="https://www.schools.com/programs/software-engineering">
                     10 best colleges for software engineering degree programs in
                     the U.S..
@@ -80,7 +80,7 @@ export default class Resume extends Component {
                 <div className="resume-block__header">
                   <h4 className="h3">Quality Consulting Inc. (QCI)</h4>
                   <p className="resume-block__header-meta">
-                    <span>Software Developer</span>
+                    <span>Senior Software Developer</span>
                     <span className="resume-block__header-date">
                       April 2019 - Present
                     </span>
@@ -94,7 +94,24 @@ export default class Resume extends Component {
                   learn to see technology as a means to an objective that will
                   benefit our clients best
                 </p>
-              </div>{" "}
+              </div>
+              <div className="resume-block">
+                <div className="resume-block__header">
+                  <h4 className="h3">Three Commas LLC.</h4>
+                  <p className="resume-block__header-meta">
+                    <span>Software Developer</span>
+                    <span className="resume-block__header-date">
+                      January 2017 - December 2018
+                    </span>
+                  </p>
+                </div>
+                <p>
+                  Three Commas LLC. is an innovative & motivational apparel company, mixing aspiration with fashion 
+                  & in pursuit of the dream. At Three Commas LLC. I built modern applications using Azure, C#, ReactJS, 
+                  SQL server, and .NET and supported the company’s development and testing processes. Also, I had the opportunity
+                  to redesign the CI/CD process with Azure from scratch, speeding up loading and deploying.
+                </p>
+              </div>
               <div className="resume-block">
                 <div className="resume-block__header">
                   <h4 className="h3">Genova Technologies</h4>
@@ -117,20 +134,20 @@ export default class Resume extends Component {
                   great deal about embedded systems, C/C++ languages, and Web
                   Developing languages.
                 </p>
-              </div>{" "}
+              </div>
               {/* end resume-block */}
               <div className="resume-block">
                 <div className="resume-block__header">
                   <h4 className="h3">Iowa State University</h4>
                   <p className="resume-block__header-meta">
-                    <span>Java Teaching Assistant</span>
+                    <span>Software Engineer Co-op</span>
                     <span className="resume-block__header-date">
                       January 2016 - December 2018
                     </span>
                   </p>
                 </div>
                 <p>
-                  As a Teaching Assistant, I have learned and gained experience
+                  As a Software Engineer, I have learned and gained experience
                   in the Java development field. I constantly worked with
                   students on their projects on assignments mentoring them in
                   the field and making sure the information is well perceived
@@ -139,10 +156,10 @@ export default class Resume extends Component {
                   the skills needed to hone my abilities that will aid me in my
                   future endeavors
                 </p>
-              </div>{" "}
+              </div>
               {/* end resume-block */}
             </div>
-          </div>{" "}
+          </div>
           {/* s-resume__section */}
           <div className="row s-resume__section">
             <div className="column large-3 tab-12">
@@ -153,7 +170,7 @@ export default class Resume extends Component {
                 <p>
                   Below is a list of some of my most used skills in my current position.
                   The complete list of my skills can be found in my{" "}
-                  <a href="resume/Hosam-Resume.pdf">resume.</a> Please feel free
+                  <a href="resume/hosam_resume_2022.pdf" target="_blank">resume.</a> Please feel free
                   to download it.
                 </p>
                 <ul className="skill-bars-fat">
@@ -190,12 +207,12 @@ export default class Resume extends Component {
                     <strong>GraphQL</strong>
                   </li>
                 </ul>
-              </div>{" "}
+              </div>
               {/* end resume-block */}
             </div>
-          </div>{" "}
+          </div>
           {/* s-resume__section */}
-        </section>{" "}
+        </section>
         {/* end s-resume */}
       </div>
     );

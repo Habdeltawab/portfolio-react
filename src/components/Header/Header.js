@@ -117,11 +117,6 @@ export default class Header extends Component {
         <div className="row s-header__nav-wrap">
           <nav className="s-header__nav">
             <ul>
-              {/* <li className="my-logo">
-                <a>
-                  <img className="logo-pic" src="logo/t-logo.png" alt="my logo" />
-                </a>
-              </li> */}
               <li className="current">
                 <a className="smoothscroll" href="#hero">
                   Home
@@ -133,20 +128,15 @@ export default class Header extends Component {
                 </a>
               </li>
               <li>
-                <a className="smoothscroll" href="#resume">
+                <a className="smoothscroll" href="resume/hosam_resume_2022.pdf" target="_blank">
                   Resume
                 </a>
               </li>
-              {/* <li>
-                <a className="smoothscroll" href="#portfolio">
-                  Works
+              <li>
+                <a className="smoothscroll" href="#cv">
+                  CV
                 </a>
               </li>
-              <li>
-                <a class="smoothscroll" href="#testimonials">
-                  Testimonials
-                </a>
-              </li>*/} 
               <li>
                 <a className="smoothscroll" href="#contact">
                   Say Hello
