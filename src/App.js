@@ -1,5 +1,3 @@
-import "slick-carousel/slick/slick.css"; 
-import "slick-carousel/slick/slick-theme.css";
 import "./App.css";
 import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
@@ -10,7 +8,6 @@ import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import Preloader from "./components/Preloader/Preloader";
 import Particles from "./components/Particles/particles";
-import Testimonials from "./components/Testimonials/Testimonials";
 
 import React, { Component } from "react";
 
@@ -25,7 +22,7 @@ export default class App extends Component {
           <Hero />
           <About />
           <Resume />
-          <Testimonials />
+          {/* <Testimonials /> */}
           <Contact />
           <Footer />
         </div>

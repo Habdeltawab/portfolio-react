@@ -31,13 +31,13 @@ export default class Footer extends Component {
           <div className="column large-4 medium-6 w-1000-stack s-footer__social-block">
             <ul className="s-footer__social">
               <li>
-                <a href="https://wa.link/tqouja">
-                  <i className="fab fa-whatsapp" aria-hidden="true" />
+                <a href="https://calendly.com/hussamahmed87/30min" alt>
+                  <i className="fas fa-calendar-alt" aria-hidden="true" />
                 </a>
               </li>
               <li>
-                <a href="https://www.facebook.com/7OSS.2EL.BOSS">
-                  <i className="fab fa-facebook-f" aria-hidden="true" />
+                <a href="https://wa.link/tqouja">
+                  <i className="fab fa-whatsapp" aria-hidden="true" />
                 </a>
               </li>
               <li>
@@ -53,7 +53,7 @@ export default class Footer extends Component {
             </ul>
           </div>
           <div className="column large-7 medium-6 w-1000-stack ss-copyright">
-            <span>© Hosam Abdeltawab 2021</span>
+            <span>© Hosam Abdeltawab 2022</span>
           </div>
         </div>
         <div className="ss-go-top">
