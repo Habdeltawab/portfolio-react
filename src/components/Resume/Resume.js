@@ -5,7 +5,6 @@ export default class Resume extends Component {
     return (
       <div>
         <section id="cv" className="s-resume target-section">
-          {/* s-resume__section */}
           <div className="row s-resume__section">
             <div className="column large-3 tab-12">
               <h3 className="section-header-allcaps">Education</h3>

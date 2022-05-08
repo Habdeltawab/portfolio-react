@@ -21,11 +21,11 @@ export default class Hero extends Component {
                 .
               </h3>
               <div className="s-hero__content-social">
+                <a href="https://calendly.com/hussamahmed87/30min" alt>
+                  <i className="fas fa-calendar-alt" aria-hidden="true" />
+                </a>
                 <a href="https://wa.link/tqouja">
                   <i className="fab fa-whatsapp" aria-hidden="true" />
-                </a>
-                <a href="https://www.facebook.com/7OSS.2EL.BOSS">
-                  <i className="fab fa-facebook" aria-hidden="true" />
                 </a>
                 <a href="https://www.linkedin.com/in/hosam96/">
                   <i className="fab fa-linkedin" aria-hidden="true" />
