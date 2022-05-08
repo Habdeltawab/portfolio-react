@@ -7,19 +7,21 @@ export default class About extends Component {
         <section id="about" className="s-about target-section">
           <div className="row">
             <div className="column large-3 tab-12">
-              <img className="hosam-image" src="images/avatars/hosam-2.jpg" alt="" />
+              <img
+                className="hosam-image"
+                src="images/avatars/hosam-2.jpg"
+                alt=""
+              />
             </div>
             <div className="column large-9 tab-12 s-about__content">
               <h3>About Me</h3>
               <p className="about-me-text">
                 I came from Cairo, Egypt to the States to get my degree in
-                Software Engineering. After I received my degree, I went to work
-                Full-time for
-                <a href="https://qci.com/">Quality Consulting Inc. (QCI)</a> as
-                a Software Developer whilst studying to get my Master's Degree.
-                I am a Developer, a gym enthusiast, and a Grad Student in the Computer Engineering
-                department at
+                Software Engineering. Received both my Bachelor's and Master's
+                degrees from{" "}
                 <a href="https://www.iastate.edu/">Iowa State University</a>.
+                Now, I work as a Developer for
+                <a href="https://www.stonex.com/"> StoneX Group</a>
               </p>
               <hr />
               <div className="row s-about__content-bottom">
@@ -27,14 +29,20 @@ export default class About extends Component {
                   <h3>Contact Details</h3>
                   <p>
                     Hosam Abdeltawab <br />
-                    4300 Westown Pkwy, Unit 150 <br />
+                    1075 Jordan Creek Pkwy, Unit 300 <br />
                     West Des Moines, IA 50266, United States <br />
                     <a href="tel:+15157087127">+1 515-708-7127</a> <br />
-                    <a href="mailto:hussamahmed87@gmail.com">hussamahmed87@gmail.com</a>
+                    <a href="mailto:hussamahmed87@gmail.com">
+                      hussamahmed87@gmail.com
+                    </a>
                   </p>
                 </div>
                 <div className="column w-1000-stack">
-                  <a href="resume/hosam_resume_2022.pdf" target="_blank" className="btn btn--download">
+                  <a
+                    href="resume/hosam_resume_2022.pdf"
+                    target="_blank"
+                    className="btn btn--download"
+                  >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width={24}

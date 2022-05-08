@@ -61,7 +61,7 @@ export default class Resume extends Component {
                   program was ranked sixth in the nation in 2018 by College
                   Choice, and In the summer of 2018 Iowa State University’s
                   Software Engineering Program was ranked second from
-                  schools.com on the top
+                  schools.com on the top{" "}
                   <a href="https://www.schools.com/programs/software-engineering">
                     10 best colleges for software engineering degree programs in
                     the U.S..
@@ -78,11 +78,31 @@ export default class Resume extends Component {
             <div className="column large-9 tab-12">
               <div className="resume-block">
                 <div className="resume-block__header">
+                  <h4 className="h3">StoneX Group Inc.</h4>
+                  <p className="resume-block__header-meta">
+                    <span>Senior Software Developer</span>
+                    <span className="resume-block__header-date">
+                      February 2022 - Present
+                    </span>
+                  </p>
+                </div>
+                <p>
+                  StoneX (formerly known as INTL FCStone) is an
+                  institutional-grade financial services network that connects
+                  companies, organizations, traders and investors to the global
+                  markets ecosystem through a unique blend of digital platforms,
+                  end-to-end clearing and execution services, high-touch service
+                  and deep expertise that provides institutional access to 39
+                  derivatives exchanges, 175 foreign exchange markets
+                </p>
+              </div>
+              <div className="resume-block">
+                <div className="resume-block__header">
                   <h4 className="h3">Quality Consulting Inc. (QCI)</h4>
                   <p className="resume-block__header-meta">
                     <span>Senior Software Developer</span>
                     <span className="resume-block__header-date">
-                      April 2019 - Present
+                      April 2019 - February 2022
                     </span>
                   </p>
                 </div>
@@ -97,19 +117,23 @@ export default class Resume extends Component {
               </div>
               <div className="resume-block">
                 <div className="resume-block__header">
-                  <h4 className="h3">Three Commas LLC.</h4>
+                  <h4 className="h3">Iowa State University</h4>
                   <p className="resume-block__header-meta">
-                    <span>Software Developer</span>
+                    <span>Software Engineer Co-op</span>
                     <span className="resume-block__header-date">
                       January 2017 - December 2018
                     </span>
                   </p>
                 </div>
                 <p>
-                  Three Commas LLC. is an innovative & motivational apparel company, mixing aspiration with fashion 
-                  & in pursuit of the dream. At Three Commas LLC. I built modern applications using Azure, C#, ReactJS, 
-                  SQL server, and .NET and supported the company’s development and testing processes. Also, I had the opportunity
-                  to redesign the CI/CD process with Azure from scratch, speeding up loading and deploying.
+                  As a Software Engineer, I have learned and gained experience
+                  in the Java development field. I constantly worked with
+                  students on their projects on assignments mentoring them in
+                  the field and making sure the information is well perceived
+                  and understood. Moreover, I worked closely with department
+                  professors on projects and assignment preparations and gained
+                  the skills needed to hone my abilities that will aid me in my
+                  future endeavors
                 </p>
               </div>
               <div className="resume-block">
@@ -135,32 +159,28 @@ export default class Resume extends Component {
                   Developing languages.
                 </p>
               </div>
-              {/* end resume-block */}
               <div className="resume-block">
                 <div className="resume-block__header">
-                  <h4 className="h3">Iowa State University</h4>
+                  <h4 className="h3">Three Commas LLC.</h4>
                   <p className="resume-block__header-meta">
-                    <span>Software Engineer Co-op</span>
+                    <span>Software Developer</span>
                     <span className="resume-block__header-date">
-                      January 2016 - December 2018
+                      May 2015 - January 2017
                     </span>
                   </p>
                 </div>
                 <p>
-                  As a Software Engineer, I have learned and gained experience
-                  in the Java development field. I constantly worked with
-                  students on their projects on assignments mentoring them in
-                  the field and making sure the information is well perceived
-                  and understood. Moreover, I worked closely with department
-                  professors on projects and assignment preparations and gained
-                  the skills needed to hone my abilities that will aid me in my
-                  future endeavors
+                  Three Commas LLC. is an innovative & motivational apparel
+                  company, mixing aspiration with fashion & in pursuit of the
+                  dream. At Three Commas LLC. I built modern applications using
+                  Azure, C#, ReactJS, SQL server, and .NET and supported the
+                  company’s development and testing processes. Also, I had the
+                  opportunity to redesign the CI/CD process with Azure from
+                  scratch, speeding up loading and deploying.
                 </p>
               </div>
-              {/* end resume-block */}
             </div>
           </div>
-          {/* s-resume__section */}
           <div className="row s-resume__section">
             <div className="column large-3 tab-12">
               <h3 className="section-header-allcaps">Skills</h3>
@@ -168,10 +188,12 @@ export default class Resume extends Component {
             <div className="column large-9 tab-12">
               <div className="resume-block">
                 <p>
-                  Below is a list of some of my most used skills in my current position.
-                  The complete list of my skills can be found in my{" "}
-                  <a href="resume/hosam_resume_2022.pdf" target="_blank">resume.</a> Please feel free
-                  to download it.
+                  Below is a list of some of my most used skills in my current
+                  position. The complete list of my skills can be found in my{" "}
+                  <a href="resume/hosam_resume_2022.pdf" target="_blank">
+                    resume.
+                  </a>{" "}
+                  Please feel free to download it.
                 </p>
                 <ul className="skill-bars-fat">
                   <li>
