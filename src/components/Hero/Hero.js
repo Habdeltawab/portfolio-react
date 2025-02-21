@@ -9,7 +9,7 @@ export default class Hero extends Component {
             <div className="s-hero__content-about">
               <h1>I'm Hosam Abdeltawab.</h1>
               <h3>
-                I'm a <span>Senior Software Engineer</span> with <span>8 Years</span>  who creates awesome and
+                I'm a <span>Senior Software Engineer</span> with <span>8 Years</span> of experience who creates awesome and
                 effective applications for companies of all sizes. Let's{" "}
                 <a className="smoothscroll" href="#about">
                   start scrolling &nbsp;
