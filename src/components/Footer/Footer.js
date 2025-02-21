@@ -53,7 +53,7 @@ export default class Footer extends Component {
             </ul>
           </div>
           <div className="column large-7 medium-6 w-1000-stack ss-copyright">
-            <span>© Hosam Abdeltawab 2022</span>
+            <span>© Hosam Abdeltawab 2025</span>
           </div>
         </div>
         <div className="ss-go-top">

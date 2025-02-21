@@ -1,0 +1,58 @@
+.testimonials {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.testimonial {
+  padding: 20px;
+  /* background: #f9f9f9; */
+  /* border: 1px solid #ddd; */
+  border-radius: 4px;
+}
+
+.testimonial p {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.testimonial h4 {
+  font-size: 1em;
+  color: #555;
+}
+
+.job-title {
+  font-size: 0.9em;
+  color: #777;
+  margin-top: 5px;
+}
+
+.slick-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  /* background: #fff; */
+  border-radius: 50%;
+  padding: 20px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.slick-next {
+  right: 40px;
+}
+
+.slick-prev {
+  left: 10px;
+}
+
+.slick-arrow i {
+  font-size: 1.5em;
+  color: #333;
+}
+
+/* Increase the font size of the arrow icon */
+.slick-arrow::before {
+  font-size: 40px; /* Increase the font size of the arrow */
+  color: #333;
+}
